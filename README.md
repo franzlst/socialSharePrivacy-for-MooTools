@@ -3,7 +3,7 @@ socialSharePrivacy for MooTools
 
 socialSharePrivacy for MooTools | 2 clicks for more privacy
 
-This is the MooTools version of the jQuery-plugin socialSharePrivacy of the "Heise Zeitschriftenverlags", made by Franz Steinmetz. My blog article about the plugin can be found here: http://www.franework.de/blog/artikel/heises-socialshareprivacy-nun-auch-für-mootools.html
+This is the MooTools version of the jQuery-plugin socialSharePrivacy of the "Heise Zeitschriftenverlags", made by Franz Steinmetz. My blog article about the plugin can be found here: http://www.franework.de/blog/artikel/heises-socialshareprivacy-nun-auch-fuer-mootools.html
 
 More information about the original plugin and the options can be found in the file Source/original/index.html
 
