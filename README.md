@@ -13,30 +13,30 @@ How to use
 
 Add a block element, such as div, with the class "socialshareprivacy" to your document, at the position where you want to place your buttons. You can have several of that buttons at different places on the same document.
 
-<div class="socialshareprivacy"></div>
+	<div class="socialshareprivacy"></div>
 
 Then call the new method socialSharePrivacy of the Element class, when the page was loaded:
 
-window.addEvent('domready', function() { 
-	
-	document.getElements('.socialshareprivacy').each(function(element) {
-		element.socialSharePrivacy();
-	});
+	window.addEvent('domready', function() { 
+		
+		document.getElements('.socialshareprivacy').each(function(element) {
+			element.socialSharePrivacy();
+		});
 
-});
+	});
 
 You can also pass options to the plugin (for more details, see index.html):
     
-element.socialSharePrivacy({ // only activate facebook
-    services : {
-        twitter : {
-            'status' : 'off'
-        },
-        gplus : {
-            'status' : 'off'
-        }
-    }
-});
+	element.socialSharePrivacy({ // only activate facebook
+		services : {
+			twitter : {
+				'status' : 'off'
+			},
+			gplus : {
+				'status' : 'off'
+			}
+		}
+	});
 
 Screenshots
 -----------
