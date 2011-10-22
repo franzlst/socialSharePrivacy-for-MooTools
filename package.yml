@@ -1,0 +1,8 @@
+name: socialSharePrivacy for MooTools
+author: Franz Steinmetz
+category: Widget
+tags: [socialSharePrivacy, social, network, facebook, twitter, gplus, google+, 2-click, 2-klick]
+#docs: https://github.com/franzlst/socialSharePrivacy-for-MooTools/blob/master/README.md
+#current: 0.1
+provides: Element.socialSharePrivacy
+requires: core
