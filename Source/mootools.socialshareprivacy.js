@@ -10,8 +10,9 @@ authors:
 requires:
 - core
 
-provides: Element.socialSharePrivacy
+provides: [Element.socialSharePrivacy]
 
+...
 */
 /*
  * socialSharePrivacy for MooTools | 2 clicks for more privacy
