@@ -10,6 +10,7 @@ authors:
 - Nicolas Heiringhoff
 - Juergen Schmidt
 
+provides: [Element.socialSharePrivacy]
 
 ...
 */
