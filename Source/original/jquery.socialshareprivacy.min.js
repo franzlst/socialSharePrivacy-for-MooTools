@@ -1,4 +1,19 @@
 /*
+---
+description: original socialSharePrivacy | 2 clicks for more privacy
+
+license: MIT License http://www.opensource.org/licenses/mit-license.php
+
+authors:
+- Hilko Holweg
+- Sebastian Hilbig
+- Nicolas Heiringhoff
+- Juergen Schmidt
+
+
+...
+*/
+/*
  * jquery.socialshareprivacy.js | 2 Klicks fuer mehr Datenschutz
  *
  * http://www.heise.de/extras/socialshareprivacy/
