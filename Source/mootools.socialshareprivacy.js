@@ -329,12 +329,15 @@ provides: [Element.socialSharePrivacy]
 				// Cookies abrufen
 				var cookie_list = document.cookie.split(';');
 				var cookies = '{';
-				var i = 0;
-				for (; i < cookie_list.length; i += 1) {
-					var foo = cookie_list[i].split('=');
-					cookies += '"' + (foo[0]).trim() + '":"' + (foo[1]).trim() + '"';
-					if (i < cookie_list.length - 1) {
-						cookies += ',';
+				// Nur wenn cookies vorhanden sind
+				if (document.cookie.trim() !== "") {
+					var i = 0;
+					for (; i < cookie_list.length; i += 1) {
+						var foo = cookie_list[i].split('=');
+						cookies += '"' + (foo[0]).trim() + '":"' + (foo[1]).trim() + '"';
+						if (i < cookie_list.length - 1) {
+							cookies += ',';
+						}
 					}
 				}
 				cookies += '}';
